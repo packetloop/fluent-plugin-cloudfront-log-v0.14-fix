@@ -1,6 +1,11 @@
 # Fluent::Plugin::Cloudfront::Log
 This plugin will connect to the S3 bucket that you store your cloudfront logs in. Once the plugin processes them and ships them to FluentD, it moves them to another location(either another bucket or sub directory).
 
+This is a fork of https://github.com/kubihie/fluent-plugin-cloudfront-log with a
+fix with regards to fluentd v0.14 error. This is a temporary gem that I would
+publish until PR https://github.com/kubihie/fluent-plugin-cloudfront-log/pull/9
+is merged.
+
 ## Example config
 ```
 <source>
@@ -82,4 +87,8 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/kubihie/fluent-plugin-cloudfront-log.
+
+## Credits
+
+kubihie
 
