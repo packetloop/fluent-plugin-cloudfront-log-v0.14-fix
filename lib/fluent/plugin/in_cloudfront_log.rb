@@ -1,3 +1,5 @@
+require  'fluent/input'
+
 class Fluent::Cloudfront_LogInput < Fluent::Input
   Fluent::Plugin.register_input('cloudfront_log', self)
 
