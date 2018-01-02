@@ -67,7 +67,7 @@ Turn this on if you'd like to see verbose information about the plugin and how i
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'fluent-plugin-cloudfront-log'
+gem 'fluent-plugin-cloudfront-log-v0.14-fix'
 ```
 
 And then execute:
@@ -76,7 +76,7 @@ $ bundle
 
 Or install it yourself as:
 
-$ gem install fluent-plugin-cloudfront-log
+$ gem install 'fluent-plugin-cloudfront-log-v0.14-fix'
 
 ## Development
 
@@ -86,7 +86,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/kubihie/fluent-plugin-cloudfront-log.
+Bug reports and pull requests are welcome on GitHub at https://github.com/packetloop/fluent-plugin-cloudfront-log-v0.14-fix.
 
 ## Credits
 
