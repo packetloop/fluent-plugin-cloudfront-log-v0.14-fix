@@ -20,7 +20,7 @@ class Fluent::Cloudfront_LogInput < Fluent::Input
   def initialize
     super
     require 'logger'
-    require 'aws-sdk'
+    require 'aws-sdk-core'
     require 'zlib'
     require 'time'
     require 'uri'
