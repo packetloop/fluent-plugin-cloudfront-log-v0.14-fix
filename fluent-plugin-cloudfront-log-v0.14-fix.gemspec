@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "fluent-plugin-cloudfront-log-v0.14-fix"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["lenfree"]
   spec.email         = ["lenfree.yeung@gmail.com"]
 
@@ -18,9 +18,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "fluentd", ">= 0.14.0", "< 2"
-  spec.add_dependency "aws-sdk-sqs", "~> 1"
   spec.add_dependency "aws-sdk-s3", "~> 1"
-
+  spec.add_dependency "aws-sdk-sqs", "~> 1"
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 12"
   spec.add_development_dependency 'test-unit', "~> 2"
