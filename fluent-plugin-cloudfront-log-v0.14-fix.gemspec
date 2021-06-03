@@ -4,9 +4,9 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "fluent-plugin-cloudfront-log-v0.14-fix"
-  spec.version       = "0.1.1"
-  spec.authors       = ["lenfree"]
-  spec.email         = ["lenfree.yeung@gmail.com"]
+  spec.version       = "0.1.2"
+  spec.authors       = ["rahmed"]
+  spec.email         = ["russellahmed.18@gmail.com"]
 
   spec.summary       = %q{AWS CloudFront log input plugin with temporary fix for v0.14. Credit to kubihie.}
   spec.description   = %q{AWS CloudFront log input plugin for fluentd. This repo is temporary until PR to upstream is addressed.}
@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "fluentd", ">= 0.14.0", "< 2"
   spec.add_dependency "aws-sdk-s3", "~> 1"
   spec.add_dependency "aws-sdk-sqs", "~> 1"
-  spec.add_development_dependency "bundler", "~> 1.7"
+  spec.add_development_dependency "bundler", ">= 2.2.10"
   spec.add_development_dependency "rake", "~> 12"
   spec.add_development_dependency 'test-unit', "~> 2"
 end
